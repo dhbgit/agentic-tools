@@ -1,0 +1,7 @@
+[27-09-2025 17:06:07] Mode: focus | Note: first sample run
+[27-09-2025 17:41:39] Mode: flow | Note: komal's first message
+[27-09-2025 18:19:12] Mode: reset | Note: disk cleanup complete. 175 gb free.
+[28-09-2025 16:59:05] Mode: milestone | Note: Reset Mode — Final Audit Confirmed. Deleted .mov files, applied chmod 000, verified disk usage at 1.1 GB. System is lean and aligned with workspace clarity.
+[29-09-2025 07:20:40] Mode: FLOW | Note: created venv named stock_env and installed requests through pip in this environment. The reason for creating a venv is to install requests in a venv that should not corrupt system wide python - rather only this venv would be affected
+[29-09-2025 10:19:35] Mode: Focus | Note: To see listing of disk usage in human readable format for 4 levels down and top 100 use du -h -d 4 ~ | sort -hr | head -n 100
+[29-09-2025 16:55:43] Mode: Reset | Note: cleaning up the folder structure of my repos
