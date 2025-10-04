@@ -8,3 +8,72 @@
 [2025-10-04T18:28:34.640093] Mode: VALIDATE | Note: Mismatch between agent and manual du output | Reflection: Agent needs refinement or deeper parsing
 [2025-10-04T18:30:56.819471] Mode: VALIDATE | Note: Agent du output matches manual snapshot | Reflection: Confirmed fidelity of disk hygiene agent
 [2025-10-04T18:36:22.023474] Mode: PLAN | Note: Disk hygiene agent validated against manual snapshot | Reflection: Ready to add threshold alerts and orchestrate periodic scans with logging
+[2025-10-04T21:13:57.945136] Mode: FIX | Note: Corrected hardcoded path from agentic-tools to agentic_tools | Reflection: Workspace now reflects clean, aligned structure; logging paths match actual repo layout
+[2025-10-04T21:37:35.758869] Mode: FLOW | Note: Disk hygiene agent reached | Reflection: Agent entrypoint confirmed via orchestrator
+[2025-10-04T21:46:48.106551] Mode: FLOW | Note: Disk hygiene agent reached | Reflection: Agent entrypoint confirmed via orchestrator
+[2025-10-04T21:48:24.485164] Mode: FLOW | Note: Disk hygiene agent reached | Reflection: Agent entrypoint confirmed via orchestrator
+[2025-10-04T21:48:24.485286] Mode: FLOW | Note: Disk hygiene scan started at 2025-10-04T21:48:24.485286 | Reflection: Parameters: depth=default, limit=default
+[2025-10-04T21:48:24.485286] Mode: FLOW | Note: Disk hygiene scan completed at 2025-10-04T21:48:24.485286 | Reflection: Scan finished with depth=default and limit=default
+[2025-10-04T21:54:42.617355] Mode: FLOW | Note: Disk hygiene agent reached | Reflection: Agent entrypoint confirmed via orchestrator
+[2025-10-04T21:54:42.617489] Mode: FLOW | Note: Disk hygiene scan started at 2025-10-04T21:54:42.617489 | Reflection: Parameters: depth=default, limit=default
+[2025-10-04T21:54:42.617489] Mode: FLOW | Note: df output preview | Reflection: Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s1s1   228Gi    11Gi   183Gi     6%    447k  1.9G    0%   /
+devfs            200Ki   200Ki     0Bi   100%     692     0  100%   /dev
+/dev/disk3s6     228Gi    20Ki   183Gi     1%       0  1.9G    0%   /System/Volumes/VM
+/dev/disk3s2     228Gi   7.2Gi   183Gi     4%    1.3k  1.9G    0%   /System/Volumes/Preboot
+[2025-10-04T21:54:42.617489] Mode: FLOW | Note: du output summary | Reflection: Top path: / with size 58G
+[2025-10-04T21:54:42.617489] Mode: FLOW | Note: Disk hygiene scan completed at 2025-10-04T21:54:42.617489 | Reflection: Scan finished with depth=default and limit=default
+[2025-10-04T21:56:17.745423] Mode: FLOW | Note: Disk hygiene agent reached | Reflection: Agent entrypoint confirmed via orchestrator
+[2025-10-04T21:56:17.745554] Mode: FLOW | Note: Disk hygiene scan started at 2025-10-04T21:56:17.745554 | Reflection: Parameters: depth=default, limit=default
+[2025-10-04T21:56:17.745554] Mode: FLOW | Note: df output preview | Reflection: Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s1s1   228Gi    11Gi   183Gi     6%    447k  1.9G    0%   /
+devfs            200Ki   200Ki     0Bi   100%     692     0  100%   /dev
+/dev/disk3s6     228Gi    20Ki   183Gi     1%       0  1.9G    0%   /System/Volumes/VM
+/dev/disk3s2     228Gi   7.2Gi   183Gi     4%    1.3k  1.9G    0%   /System/Volumes/Preboot
+[2025-10-04T21:56:17.745554] Mode: FLOW | Note: du output summary | Reflection: Top path: / with size 58G
+[2025-10-04T21:56:17.745554] Mode: FLOW | Note: Disk hygiene scan completed at 2025-10-04T21:56:17.745554 | Reflection: Scan finished with depth=default and limit=default
+[2025-10-04T22:03:37.985278] Mode: FLOW | Note: Disk hygiene agent reached | Reflection: Agent entrypoint confirmed via orchestrator
+[2025-10-04T22:03:37.985389] Mode: FLOW | Note: Disk hygiene scan started at 2025-10-04T22:03:37.985389 | Reflection: Parameters: depth=default, limit=default
+[2025-10-04T22:03:37.985389] Mode: FLOW | Note: df output preview | Reflection: Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s1s1   228Gi    11Gi   183Gi     6%    447k  1.9G    0%   /
+devfs            200Ki   200Ki     0Bi   100%     692     0  100%   /dev
+/dev/disk3s6     228Gi    20Ki   183Gi     1%       0  1.9G    0%   /System/Volumes/VM
+/dev/disk3s2     228Gi   7.2Gi   183Gi     4%    1.3k  1.9G    0%   /System/Volumes/Preboot
+[2025-10-04T22:03:48.603804] Mode: REFLECT | Note: Disk hygiene interpretation | Reflection: User data: 1.9G → /Library, 1.8G → /Library/Developer/CommandLineTools, 1.8G → /Library/Developer
+Applications: 2.3G → /System/Volumes/Data/Applications, 2.3G → /Applications, 629M → /System/Applications
+System files: 49G → /System, 36G → /System/Volumes, 25G → /System/Volumes/Preboot
+[2025-10-04T22:03:37.985389] Mode: FLOW | Note: du output summary | Reflection: Top path: / with size 58G
+[2025-10-04T22:03:37.985389] Mode: FLOW | Note: Disk hygiene scan completed at 2025-10-04T22:03:37.985389 | Reflection: Scan finished with depth=default and limit=default
+[2025-10-04T22:09:43.534732] Mode: FLOW | Note: Disk hygiene agent reached | Reflection: Agent entrypoint confirmed via orchestrator
+[2025-10-04T22:09:43.534846] Mode: FLOW | Note: Disk hygiene scan started at 2025-10-04T22:09:43.534846 | Reflection: Parameters: depth=default, limit=default
+[2025-10-04T22:09:43.534846] Mode: FLOW | Note: df output preview | Reflection: Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s1s1   228Gi    11Gi   183Gi     6%    447k  1.9G    0%   /
+devfs            200Ki   200Ki     0Bi   100%     692     0  100%   /dev
+/dev/disk3s6     228Gi    20Ki   183Gi     1%       0  1.9G    0%   /System/Volumes/VM
+/dev/disk3s2     228Gi   7.2Gi   183Gi     4%    1.3k  1.9G    0%   /System/Volumes/Preboot
+[2025-10-04T22:09:54.234435] Mode: REFLECT | Note: Disk hygiene interpretation | Reflection: User data: 1.9G → /Library, 1.8G → /Library/Developer/CommandLineTools, 1.8G → /Library/Developer
+Applications: 2.3G → /System/Volumes/Data/Applications, 2.3G → /Applications, 629M → /System/Applications
+System files: 49G → /System, 36G → /System/Volumes, 25G → /System/Volumes/Preboot
+[2025-10-04T22:09:43.534846] Mode: REFLECT | Note: Disk hygiene summary | Reflection: Scan completed. du returned 100 entries. df captured 11 lines.
+[2025-10-04T22:15:32.273489] Mode: FLOW | Note: Disk hygiene agent reached | Reflection: Agent entrypoint confirmed via orchestrator
+[2025-10-04T22:15:32.273588] Mode: FLOW | Note: Disk hygiene scan started at 2025-10-04T22:15:32.273588 | Reflection: Parameters: depth=default, limit=default
+[2025-10-04T22:15:32.273588] Mode: FLOW | Note: df output preview | Reflection: Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s1s1   228Gi    11Gi   182Gi     6%    447k  1.9G    0%   /
+devfs            200Ki   200Ki     0Bi   100%     692     0  100%   /dev
+/dev/disk3s6     228Gi    20Ki   182Gi     1%       0  1.9G    0%   /System/Volumes/VM
+/dev/disk3s2     228Gi   7.2Gi   182Gi     4%    1.3k  1.9G    0%   /System/Volumes/Preboot
+[2025-10-04T22:15:42.873143] Mode: REFLECT | Note: Disk hygiene interpretation | Reflection: User data: 1.9G → /Library, 1.8G → /Library/Developer/CommandLineTools, 1.8G → /Library/Developer
+Applications: 2.3G → /System/Volumes/Data/Applications, 2.3G → /Applications, 629M → /System/Applications
+System files: 50G → /System, 36G → /System/Volumes, 25G → /System/Volumes/Preboot
+[2025-10-04T22:15:32.273588] Mode: REFLECT | Note: Disk hygiene summary | Reflection: Scan completed. du returned 100 entries. df captured 11 lines.
+[2025-10-04T22:19:37.923721] Mode: FLOW | Note: Disk hygiene agent reached | Reflection: Agent entrypoint confirmed via orchestrator
+[2025-10-04T22:19:37.923970] Mode: FLOW | Note: Disk hygiene scan started at 2025-10-04T22:19:37.923970 | Reflection: Parameters: depth=default, limit=default
+[2025-10-04T22:19:37.923970] Mode: FLOW | Note: df output preview | Reflection: Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s1s1   228Gi    11Gi   182Gi     6%    447k  1.9G    0%   /
+devfs            200Ki   200Ki     0Bi   100%     692     0  100%   /dev
+/dev/disk3s6     228Gi    20Ki   182Gi     1%       0  1.9G    0%   /System/Volumes/VM
+/dev/disk3s2     228Gi   7.2Gi   182Gi     4%    1.3k  1.9G    0%   /System/Volumes/Preboot
+[2025-10-04T22:19:48.581587] Mode: REFLECT | Note: Disk hygiene interpretation | Reflection: User data: 1.9G → /Library, 1.8G → /Library/Developer/CommandLineTools, 1.8G → /Library/Developer
+Applications: 2.3G → /System/Volumes/Data/Applications, 2.3G → /Applications, 629M → /System/Applications
+System files: 50G → /System, 36G → /System/Volumes, 25G → /System/Volumes/Preboot
+[2025-10-04T22:19:37.923970] Mode: REFLECT | Note: Disk hygiene summary | Reflection: Scan completed. du returned 100 entries. df captured 11 lines.

@@ -1,6 +1,6 @@
 import requests
 from datetime import datetime
-from workspace_logger.logger import log_milestone
+from agentic_tools.workspace_logger.logger import log_milestone
 
 API_KEY = "DHQ425H8K37CBY7H"  # replace with your actual key
 BASE_URL = "https://www.alphavantage.co/query"

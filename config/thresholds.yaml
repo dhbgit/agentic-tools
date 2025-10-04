@@ -1,0 +1,5 @@
+/Library: 3.0  # System-level resources; flag if bloated
+/Users/dhb/Downloads: 1.0  # Temporary files; should stay lean
+/opt/homebrew: 5.0  # Homebrew packages; monitor growth
+/Users/dhb/Documents: 2.0  # Personal workspace; flag if cluttered
+/Users/dhb/Desktop: 1.5  # Visual clutter; keep intentional

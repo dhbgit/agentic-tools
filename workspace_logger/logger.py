@@ -1,8 +1,8 @@
 from datetime import datetime
 import os
 
-LOG_FILE = os.path.expanduser("~/repos/agentic-tools/workspace_logger/workspace_log.txt")
-MILESTONE_FILE = os.path.expanduser("~/repos/agentic-tools/workspace_logger/milestones.txt")
+LOG_FILE = os.path.expanduser("~/repos/agentic_tools/workspace_logger/workspace_log.txt")
+MILESTONE_FILE = os.path.expanduser("~/repos/agentic_tools/workspace_logger/milestones.txt")
 
 def log_entry(mode: str, note: str = ""):
     timestamp = datetime.now().strftime("%d-%m-%Y %H:%M:%S")
@@ -24,10 +24,15 @@ def log_milestone(entry: dict):
         f"Note: {entry['note']} | Reflection: {entry['reflection']}\n"
     )
 
-    print(f"\n🪵 Milestone Logged:\n{log_line}")
-
-    with open(MILESTONE_FILE, "a") as f:
-        f.write(log_line)
+    # ✅ Confirm path and permissions
+    print(f"[log_milestone] writing to: {MILESTONE_FILE}")
+    try:
+        with open(MILESTONE_FILE, "a") as f:
+            f.write(log_line)
+        print("🪵 Milestone Logged:")
+        print(log_line)
+    except Exception as e:
+        print(f"[log_milestone] failed to write: {e}")
 
 def interactive_milestone():
     print("\n🪪 Milestone Logger – Interactive Mode")
