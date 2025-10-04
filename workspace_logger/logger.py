@@ -1,8 +1,6 @@
 from datetime import datetime
-import sys
 import os
 
-# Path to your log file
 LOG_FILE = os.path.expanduser("~/repos/agentic-tools/workspace_logger/workspace_log.txt")
 MILESTONE_FILE = os.path.expanduser("~/repos/agentic-tools/workspace_logger/milestones.txt")
 
@@ -31,12 +29,38 @@ def log_milestone(entry: dict):
     with open(MILESTONE_FILE, "a") as f:
         f.write(log_line)
 
-# Fluid CLI input: python3 workspace_logger.py flow "Finished Alpha Vantage agent"
-if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        print("Usage: python3 workspace_logger.py <mode> [note]")
-        sys.exit(1)
+def interactive_milestone():
+    print("\n🪪 Milestone Logger – Interactive Mode")
 
-    mode = sys.argv[1]
-    note = " ".join(sys.argv[2:]) if len(sys.argv) > 2 else ""
-    log_entry(mode, note)
+    # Mode selection
+    print("Select mode:")
+    print("  1. PLAN")
+    print("  2. VALIDATE")
+    print("  3. FLOW")
+    print("  4. FIX")
+    print("  5. OTHER")
+    mode_map = {
+        "1": "PLAN",
+        "2": "VALIDATE",
+        "3": "FLOW",
+        "4": "FIX",
+        "5": "OTHER"
+    }
+    mode_choice = input("Enter choice (1–5): ").strip()
+    mode = mode_map.get(mode_choice, "OTHER")
+
+    # Note and reflection
+    note = input("What was the milestone note?\n> ").strip()
+    reflection = input("What’s your reflection on this milestone?\n> ").strip()
+
+    entry = {
+        "timestamp": datetime.now().isoformat(),
+        "mode": mode,
+        "note": note,
+        "reflection": reflection
+    }
+
+    log_milestone(entry)
+
+if __name__ == "__main__":
+    interactive_milestone()
