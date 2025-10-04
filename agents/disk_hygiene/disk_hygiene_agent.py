@@ -36,7 +36,7 @@ class DiskHygieneAgent:
             "timestamp": timestamp,
             "mode": "FLOW",
             "note": "df output preview",
-            "reflection": "\n".join(df_output.splitlines()[:5])  # first 5 lines
+            "reflection": "\n" + "\n".join(df_output.splitlines()[:5])  # first 5 lines
         })
         du_output = self._run_du(depth=depth, limit=limit)
         self.reflect_on_du(du_output)
@@ -158,7 +158,12 @@ class DiskHygieneAgent:
                 "mode": "ERROR",
                 "note": "Reflection on du output failed",
                 "reflection": str(e)
-            })            
+            })
+
+def check_disk_usage(depth=None, limit=None):
+    agent = DiskHygieneAgent()
+    return agent.scan(depth=depth, limit=limit)
+
 if __name__ == "__main__":
     agent = DiskHygieneAgent()
     result = agent.scan()
