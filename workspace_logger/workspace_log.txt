@@ -1,0 +1,116 @@
+
+[SUMMARY] 2025-10-18T17:18:12.291173
+Disk Usage (df):
+Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s1s1   228Gi    11Gi   179Gi     6%    447k  1.9G    0%   /
+devfs            200Ki   200Ki     0Bi   100%     692     0  100%   /dev
+/dev/disk3s6     228Gi    20Ki   179Gi     1%       0  1.9G    0%   /System/Volumes/VM
+/dev/disk3s2     228Gi   7.2Gi   179Gi     4%    1.3k  1.9G    0%   /System/Volumes/Preboot
+/dev/disk3s4     228Gi   3.3Mi   179Gi     1%      64  1.9G    0%   /System/Volumes/Update
+/dev/disk1s2     500Mi   6.0Mi   483Mi     2%       1  4.9M    0%   /System/Volumes/xarts
+/dev/disk1s1     500Mi   6.0Mi   483Mi     2%      32  4.9M    0%   /System/Volumes/iSCPreboot
+/dev/disk1s3     500Mi   720Ki   483Mi     1%      80  4.9M    0%   /System/Volumes/Hardware
+/dev/disk3s5     228Gi    29Gi   179Gi    14%    368k  1.9G    0%   /System/Volumes/Data
+map auto_home      0Bi     0Bi     0Bi   100%       0     0     -   /System/Volumes/Data/home
+
+Top Directories (du):
+63G  /
+52G  /System
+39G  /System/Volumes
+25G  /System/Volumes/Preboot
+14G  /System/Volumes/Data
+13G  /System/Volumes/Preboot/AC47E4B7-06FE-44CD-B204-ED839379C934
+13G  /System/Library
+12G  /System/Volumes/Preboot/Cryptexes
+12G  /System/Volumes/Preboot/AC47E4B7-06FE-44CD-B204-ED839379C934/cryptex1/current
+12G  /System/Volumes/Preboot/AC47E4B7-06FE-44CD-B204-ED839379C934/cryptex1
+5.8G  /System/Volumes/Preboot/Cryptexes/OS/System
+5.8G  /System/Volumes/Preboot/Cryptexes/OS
+5.8G  /System/Volumes/Preboot/Cryptexes/Incoming/OS
+5.8G  /System/Volumes/Preboot/Cryptexes/Incoming
+3.6G  /System/Volumes/Data/System/Library/AssetsV2
+3.6G  /System/Volumes/Data/System/Library
+3.6G  /System/Volumes/Data/System
+3.6G  /System/Library/AssetsV2
+3.4G  /System/Library/PrivateFrameworks
+3.2G  /Users/dhb
+3.2G  /Users
+3.2G  /System/Volumes/Data/Users/dhb
+3.2G  /System/Volumes/Data/Users
+3.0G  /Users/dhb/Library
+3.0G  /System/Volumes/Data/Users/dhb/Library
+2.3G  /System/Volumes/Data/Applications
+2.3G  /Applications
+2.0G  /System/Volumes/Data/private/var
+2.0G  /System/Volumes/Data/private
+2.0G  /private/var
+2.0G  /private
+1.9G  /System/Volumes/Data/Library
+1.9G  /Library
+1.8G  /System/Volumes/Data/Library/Developer/CommandLineTools
+1.8G  /System/Volumes/Data/Library/Developer
+1.8G  /Library/Developer/CommandLineTools
+1.8G  /Library/Developer
+1.4G  /System/Volumes/Data/private/var/db
+1.4G  /private/var/db
+1.3G  /Users/dhb/Library/Caches
+1.2G  /System/Library/AssetsV2/com_apple_MobileAsset_UAF_Siri_Understanding/purpose_auto
+1.2G  /System/Library/AssetsV2/com_apple_MobileAsset_UAF_Siri_Understanding
+1.1G  /Library/Developer/CommandLineTools/usr
+947M  /System/Volumes/Preboot/AC47E4B7-06FE-44CD-B204-ED839379C934/restore
+909M  Support
+809M  /System/Library/LinguisticData
+773M  /System/Library/Templates/Data
+773M  /System/Library/Templates
+744M  /usr
+730M  /System/Library/AssetsV2/com_apple_MobileAsset_UAF_Photos_MagicCleanup/purpose_auto
+730M  /System/Library/AssetsV2/com_apple_MobileAsset_UAF_Photos_MagicCleanup
+718M  /System/Library/Frameworks
+710M  /Users/dhb/Library/Containers
+649M  /System/Volumes/Preboot/AC47E4B7-06FE-44CD-B204-ED839379C934/restore/Firmware
+640M  Pictures
+629M  /System/Applications
+616M  /Library/Developer/CommandLineTools/usr/lib
+594M  /private/var/db/uuidtext
+586M  /System/Library/Templates/Data/System/Library
+586M  /System/Library/Templates/Data/System
+582M  /Library/Developer/CommandLineTools/SDKs
+576M  /System/Volumes/Data/private/var/folders
+576M  /private/var/folders/cs/dkxl0y6j07l_m_hzs5cqt3z00000gn
+576M  /private/var/folders/cs
+576M  /private/var/folders
+562M  /System/Library/Fonts
+561M  /System/Library/CoreServices
+548M  /private/var/db/diagnostics
+543M  /System/Volumes/Data/Applications/Keynote.app/Contents
+543M  /System/Volumes/Data/Applications/Keynote.app
+543M  /Applications/Keynote.app/Contents
+543M  /Applications/Keynote.app
+517M  Support/Spotify/PersistentCache
+517M  Support/Spotify
+501M  /private/var/db/diagnostics/Persist
+500M  /private/var/db/uuidtext/dsc
+490M  /Users/dhb/Library/Caches/com.spotify.client
+481M  /System/Library/AssetsV2/com_apple_MobileAsset_UAF_Photos_MagicCleanup/purpose_auto/4d3116614b5097b113d82187da8556d30f4b414f.asset
+476M  /Library/Developer/CommandLineTools/usr/bin
+460M  /System/Volumes/Data/Applications/Pages.app/Contents
+460M  /System/Volumes/Data/Applications/Pages.app
+460M  /Applications/Pages.app/Contents
+460M  /Applications/Pages.app
+434M  Pictures/.wallpapers
+430M  /System/Volumes/Data/opt/homebrew
+430M  /System/Volumes/Data/opt
+430M  /opt/homebrew
+430M  /opt
+428M  /Users/dhb/Library/Containers/com.apple.mediaanalysisd/Data
+428M  /Users/dhb/Library/Containers/com.apple.mediaanalysisd
+421M  /System/Volumes/Data/Applications/Numbers.app/Contents
+421M  /System/Volumes/Data/Applications/Numbers.app
+421M  /Applications/Numbers.app/Contents
+421M  /Applications/Numbers.app
+409M  /Users/dhb/Library/Caches/com.microsoft.VSCode.ShipIt/update.KzZWsQp
+409M  /Users/dhb/Library/Caches/com.microsoft.VSCode.ShipIt
+407M  Code.app/Contents
+407M  Code.app
+407M  Code.app/Contents
+407M  Code.app

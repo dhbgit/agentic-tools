@@ -1,4 +1,4 @@
-from workspace_logger.logger import log_milestone
+from agentic_tools.workspace_logger.logger import log_milestone
 from agentic_tools.agents.disk_hygiene.disk_hygiene_agent import check_disk_usage
 from datetime import datetime
 
