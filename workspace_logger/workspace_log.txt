@@ -114,3 +114,157 @@ Top Directories (du):
 407M  Code.app
 407M  Code.app/Contents
 407M  Code.app
+
+[SUMMARY] 2025-10-26T15:08:37.008507
+Scanned Roots:
+- /Users/dhb/Downloads
+- /Users/dhb/Documents
+- /Users/dhb/Desktop
+- /Users/dhb/Library/Caches
+- /Users/dhb/Library/Logs
+- /Users/dhb/repos
+
+Disk Usage (df):
+Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s1s1   228Gi    11Gi   177Gi     6%    447k  1.9G    0%   /
+devfs            201Ki   201Ki     0Bi   100%     696     0  100%   /dev
+/dev/disk3s6     228Gi    20Ki   177Gi     1%       0  1.9G    0%   /System/Volumes/VM
+/dev/disk3s2     228Gi   7.2Gi   177Gi     4%    1.3k  1.9G    0%   /System/Volumes/Preboot
+/dev/disk3s4     228Gi   3.3Mi   177Gi     1%      63  1.9G    0%   /System/Volumes/Update
+/dev/disk2s2     500Mi   6.0Mi   483Mi     2%       1  4.9M    0%   /System/Volumes/xarts
+/dev/disk2s1     500Mi   6.0Mi   483Mi     2%      32  4.9M    0%   /System/Volumes/iSCPreboot
+/dev/disk2s3     500Mi   720Ki   483Mi     1%      80  4.9M    0%   /System/Volumes/Hardware
+/dev/disk3s5     228Gi    32Gi   177Gi    16%    291k  1.9G    0%   /System/Volumes/Data
+map auto_home      0Bi     0Bi     0Bi   100%       0     0     -   /System/Volumes/Data/home
+
+Top Directories (du):
+2.0G  /Users/dhb/Library/Caches
+442M  /Users/dhb/Library/Caches/com.spotify.client
+433M  /Users/dhb/Library/Caches/Homebrew
+382M  /Users/dhb/Library/Caches/Homebrew/downloads
+380M  /Users/dhb/Library/Caches/com.openai.atlas
+377M  /Users/dhb/Library/Caches/com.openai.atlas/browser-data/host
+377M  /Users/dhb/Library/Caches/com.openai.atlas/browser-data
+301M  /Users/dhb/Library/Caches/com.apple.textunderstandingd/com.apple.e5rt.e5bundlecache/25A362
+301M  /Users/dhb/Library/Caches/com.apple.textunderstandingd/com.apple.e5rt.e5bundlecache
+301M  /Users/dhb/Library/Caches/com.apple.textunderstandingd
+251M  /Users/dhb/Library/Caches/SiriTTS/BNNSModels/25A362
+251M  /Users/dhb/Library/Caches/SiriTTS/BNNSModels
+251M  /Users/dhb/Library/Caches/SiriTTS
+196M  /Users/dhb/Library/Caches/com.spotify.client/Default
+185M  /Users/dhb/Library/Caches/com.spotify.client/Default/Cache
+156M  /Users/dhb/Library/Caches/com.spotify.client/Data
+151M  /Users/dhb/repos
+150M  /Users/dhb/repos/.venv
+150M  /Users/dhb/repos/.venv/lib/python3.14
+150M  /Users/dhb/repos/.venv/lib
+56M  /Users/dhb/Library/Caches/GeoServices
+56M  /Users/dhb/Library/Caches/GeoServices/Resources
+47M  /Users/dhb/Library/Caches/com.spotify.client/component_crx_cache
+45M  /Users/dhb/Library/Caches/Homebrew/api
+40M  /Users/dhb/Library/Caches/Comet/Default
+40M  /Users/dhb/Library/Caches/Comet
+29M  /Users/dhb/Library/Caches/com.apple.helpd
+28M  /Users/dhb/Library/Caches/com.apple.e5rt.e5bundlecache/25A362
+28M  /Users/dhb/Library/Caches/com.apple.e5rt.e5bundlecache
+27M  /Users/dhb/Library/Caches/Comet/Default/Cache
+17M  /Users/dhb/Library/Caches/com.spotify.client/WidevineCdm/4.10.2891.0
+17M  /Users/dhb/Library/Caches/com.spotify.client/WidevineCdm
+17M  /Users/dhb/Library/Caches/com.apple.parsecd
+15M  /Users/dhb/Library/Caches/com.apple.e5rt.e5bundlecache/25A362/5A1B14E4DDEF430122391A207A70CAF0A9D940F506655E9BA32116E5A34BA6E6
+13M  /Users/dhb/Library/Caches/com.apple.e5rt.e5bundlecache/25A362/4476A3C327285E82687C1E9AA33A8636902A2E6FD4DEC38921EF78B4A2600B43
+13M  /Users/dhb/Library/Caches/com.apple.helpd/fsCachedData
+13M  /Users/dhb/Library/Caches/Comet/Default/Code Cache
+13M  /Users/dhb/Library/Caches/com.apple.helpd/Generated
+9.3M  /Users/dhb/Library/Caches/com.spotify.client/Data/4b
+7.4M  /Users/dhb/Library/Caches/com.spotify.client/OnDeviceHeadSuggestModel/20250915.810226330.14
+7.4M  /Users/dhb/Library/Caches/com.spotify.client/OnDeviceHeadSuggestModel
+6.9M  /Users/dhb/Library/Caches/com.spotify.client/Data/e1
+6.8M  /Users/dhb/Library/Caches/com.spotify.client/Data/db
+6.7M  /Users/dhb/Library/Caches/com.openai.chat
+6.5M  /Users/dhb/Library/Caches/Homebrew/bootsnap/351eae37507e977972fffae3095d615ae5994d07a8ec3fe15eaa054d17c442bf
+6.5M  /Users/dhb/Library/Caches/Homebrew/bootsnap
+6.5M  /Users/dhb/Library/Caches/com.spotify.client/Data/5d
+6.5M  /Users/dhb/Library/Caches/com.spotify.client/Data/21
+6.2M  /Users/dhb/Library/Caches/icloudmailagent/com.apple.e5rt.e5bundlecache/25A362
+6.2M  /Users/dhb/Library/Caches/icloudmailagent/com.apple.e5rt.e5bundlecache
+
+Cleanup Actions:
+- Freed 1.9G from /Users/dhb/Library/Caches (safe root: /Users/dhb/Library/Caches)
+
+[SUMMARY] 2025-10-26T21:30:13.022269
+Scanned Roots:
+- /Users/dhb/Downloads
+- /Users/dhb/Documents
+- /Users/dhb/Desktop
+- /Users/dhb/Library/Caches
+- /Users/dhb/Library/Logs
+- /Users/dhb/repos
+
+Disk Usage (df):
+Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s1s1   228Gi    11Gi   178Gi     6%    447k  1.9G    0%   /
+devfs            201Ki   201Ki     0Bi   100%     696     0  100%   /dev
+/dev/disk3s6     228Gi    20Ki   178Gi     1%       0  1.9G    0%   /System/Volumes/VM
+/dev/disk3s2     228Gi   7.2Gi   178Gi     4%    1.3k  1.9G    0%   /System/Volumes/Preboot
+/dev/disk3s4     228Gi   3.3Mi   178Gi     1%      63  1.9G    0%   /System/Volumes/Update
+/dev/disk2s2     500Mi   6.0Mi   483Mi     2%       1  4.9M    0%   /System/Volumes/xarts
+/dev/disk2s1     500Mi   6.0Mi   483Mi     2%      32  4.9M    0%   /System/Volumes/iSCPreboot
+/dev/disk2s3     500Mi   720Ki   483Mi     1%      80  4.9M    0%   /System/Volumes/Hardware
+/dev/disk3s5     228Gi    30Gi   178Gi    15%    280k  1.9G    0%   /System/Volumes/Data
+map auto_home      0Bi     0Bi     0Bi   100%       0     0     -   /System/Volumes/Data/home
+
+Top Directories (du):
+258M  /Users/dhb/Library/Caches
+151M  /Users/dhb/repos
+150M  /Users/dhb/repos/.venv
+150M  /Users/dhb/repos/.venv/lib/python3.14
+150M  /Users/dhb/repos/.venv/lib
+120M  /Users/dhb/Library/Caches/com.spotify.client
+98M  /Users/dhb/Library/Caches/com.spotify.client/Data
+52M  /Users/dhb/Library/Caches/Homebrew
+49M  /Users/dhb/Library/Caches/com.openai.atlas/browser-data/host
+49M  /Users/dhb/Library/Caches/com.openai.atlas/browser-data
+49M  /Users/dhb/Library/Caches/com.openai.atlas
+45M  /Users/dhb/Library/Caches/Homebrew/api
+29M  /Users/dhb/Library/Caches/com.apple.helpd
+22M  /Users/dhb/Library/Caches/com.spotify.client/Default
+21M  /Users/dhb/Library/Caches/com.spotify.client/Default/Cache
+13M  /Users/dhb/Library/Caches/com.apple.helpd/fsCachedData
+13M  /Users/dhb/Library/Caches/com.apple.helpd/Generated
+9.0M  /Users/dhb/Library/Caches/com.spotify.client/Data/4c
+8.7M  /Users/dhb/Library/Caches/com.spotify.client/Data/1c
+7.2M  /Users/dhb/Library/Caches/com.spotify.client/Data/be
+6.6M  /Users/dhb/Library/Caches/Homebrew/bootsnap/351eae37507e977972fffae3095d615ae5994d07a8ec3fe15eaa054d17c442bf
+6.6M  /Users/dhb/Library/Caches/Homebrew/bootsnap
+6.5M  /Users/dhb/Library/Caches/com.openai.chat
+6.0M  /Users/dhb/Library/Caches/com.spotify.client/Data/4b
+6.0M  /Users/dhb/Library/Caches/com.spotify.client/Data/51
+5.9M  /Users/dhb/Library/Caches/com.spotify.client/Data/18
+5.6M  /Users/dhb/Library/Caches/com.spotify.client/Data/b7
+5.0M  /Users/dhb/Library/Caches/com.spotify.client/Data/35
+4.5M  /Users/dhb/Library/Caches/com.spotify.client/Data/f4
+3.6M  /Users/dhb/Library/Caches/com.spotify.client/Data/9c
+3.5M  /Users/dhb/Library/Caches/com.spotify.client/Data/80
+3.5M  /Users/dhb/Library/Caches/com.spotify.client/Data/19
+2.7M  /Users/dhb/Library/Caches/com.spotify.client/Data/b0
+2.7M  /Users/dhb/Library/Caches/com.spotify.client/Data/f3
+2.5M  /Users/dhb/Library/Caches/com.spotify.client/Data/50
+2.5M  /Users/dhb/Library/Caches/com.spotify.client/Data/e7
+2.4M  /Users/dhb/Library/Caches/com.apple.helpd/Generated/logicpro
+2.4M  /Users/dhb/Library/Caches/com.spotify.client/Data/83
+2.3M  /Users/dhb/Library/Caches/com.spotify.client/Data/75
+2.1M  /Users/dhb/Library/Caches/com.spotify.client/Data/1f
+2.1M  /Users/dhb/Library/Caches/com.spotify.client/Data/e3
+2.0M  /Users/dhb/Library/Caches/com.spotify.client/Data/22
+1.9M  /Users/dhb/Library/Caches/com.spotify.client/Data/8d
+1.8M  /Users/dhb/Library/Caches/com.spotify.client/Data/05
+1.7M  /Users/dhb/Library/Caches/com.spotify.client/Data/c7
+1.3M  /Users/dhb/Library/Caches/com.apple.helpd/Generated/mainstage
+1.1M  /Users/dhb/Library/Caches/com.apple.helpd/Generated/motion
+1.0M  /Users/dhb/Library/Caches/com.apple.helpd/Generated/iphone
+1012K  /Users/dhb/repos/agentic_tools
+996K  /Users/dhb/Library/Caches/com.apple.helpd/Generated/com.apple.machelp*26.0.1
+
+Cleanup Actions:
+- Freed 217M from /Users/dhb/Library/Caches (safe root: /Users/dhb/Library/Caches)
