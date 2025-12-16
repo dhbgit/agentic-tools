@@ -5,6 +5,17 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, Optional, Union
 
+def log_info(message: str) -> None:
+    """
+    Simple compatibility wrapper used by agents that just need
+    to record a plain text event in the workspace log.
+    """
+    try:
+        log_entry(message=message)
+    except Exception:
+        # Fall back to stdout so the agent still reports progress
+        print(message)
+
 
 DEFAULT_LOG_DIR = Path(
     os.environ.get(
